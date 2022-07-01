@@ -49,6 +49,7 @@ table {
 
 body {
     display: flex;
+	background-color: black;
 }
 
 .wrapper {
@@ -67,4 +68,8 @@ body {
 
 .grid {
     background-color: yellow;
+}
+
+#result {
+	color: orange;
 }
