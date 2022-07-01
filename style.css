@@ -53,8 +53,8 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
     grid-gap: 2px;
     width: 80vw;
     height: 100vh;
@@ -66,13 +66,5 @@ body {
 }
 
 .grid {
-    background-color: wheat;
-}
-
-.grid:hover {
-    background-color: purple;
-}
-
-.grid:clicked {
-    background-color: blue;
+    background-color: yellow;
 }
